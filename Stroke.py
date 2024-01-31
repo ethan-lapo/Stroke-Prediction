@@ -7,7 +7,7 @@ import numpy as np
 import math
 from pandas.api.types import is_numeric_dtype
 
-df = pd.read_csv('C:/Users/Ethan Lapaczonek/Downloads/healthcare-dataset-stroke-data.csv')
+df = pd.read_csv('C:/Users/{insert path}/healthcare-dataset-stroke-data.csv')
 print(df)
 
 print(df.isna())
@@ -106,7 +106,7 @@ print(df.corr())
 from sklearn.preprocessing import StandardScaler
 
 
-df = pd.read_csv('C:/Users/Ethan Lapaczonek/Downloads/healthcare-dataset-stroke-data.csv')
+df = pd.read_csv('C:/Users/{insert path}/healthcare-dataset-stroke-data.csv')
 print(df)
 df = df.dropna()
 print(df[df["bmi"].isnull()])
